@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-native/all",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "react-native/react-native": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-use-before-define": "off",
+    "comma-dangle": "off",
+    "padded-blocks": "off",
+    "arrow-body-style": "off",
+    "quotes": ["error", "single"],
+    "semi": "error"
+  },
+  "globals": {
+    "fetch": false
+  }
+}
