@@ -1,0 +1,2 @@
+export const SET_THEME = 'SET_THEME';
+export const SERVER_SEND_REQUEST = 'SERVER_SEND_REQUEST';
